@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(baa.jpeg) no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  }
+  .box{
+    width: 450px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    color: white;
+    font-family: 'Century Gothic',sans-serif;
+  }
+  .box-img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+  }
+  .box h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+    color: rgb(233, 236, 15);
+  }
+  .box h5{
+    font-size: 22px;
+    letter-spacing: 3px;
+    font-weight: 100;
+    color: black;
+  }
+  .box p{
+    text-align: justify;
+    color: black;
+    font-size: 18px;
+  }
+  ul{
+    margin: 0;
+    padding: 0;
+  }
+  .box li{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+  }
+  .box li a{
+    color: rgba(30, 15, 228, 0.945);
+    text-decoration: none;
+    font-size: 60px;
+    transition: all ease-in-out 250ms;
+  }
+  .box li a:hover{
+    color: #b9b9b9;
+  }
